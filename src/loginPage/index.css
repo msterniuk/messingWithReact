@@ -34,7 +34,7 @@ h1 {
   line-height: 1.1;
 }
 
-.LoginButton {
+#LoginButton {
   border-radius: 8px;
   font-family: inherit;
   background-color:#7b0f24;
