@@ -1,1 +1,124 @@
-.
+html, body, .RootComponent {
+    min-width: 25vw; 
+    min-height: 25vh; 
+    margin: 0; 
+    background-color: #f9f6f6; 
+}
+
+* {
+    box-sizing: border-box; 
+}
+
+
+.RootComponent {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: top; 
+ 
+}
+
+.TopHeader, .NavigationHeader, .FlexSelectionParent {
+
+    width: 100vw;
+    min-height: 15vh; 
+    margin: 5vh 0; 
+}
+
+.NavigationHeader {
+    margin-bottom: 0; 
+    min-height: 7vh; 
+}
+
+.TopHeader {
+    background-color:#7b0f24 ;
+    height: 10.66vh; 
+    width: 100vw; 
+    margin: 0; 
+}
+
+.TopHeader {
+    display: flex; 
+    justify-content: left;
+    margin-top: 0;  
+}
+
+.NavigationHeader {
+    display: flex; 
+    justify-content: space-between; 
+    padding: 0 5vw;
+    
+}
+
+.FlexSelectionParent {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    margin-top: 0; 
+    padding-left: 3vh;
+}
+
+.LogoComponent{ 
+    padding-top: 1.5vh;
+    padding-left: 1vw; 
+}
+
+.SearchParent {
+    display: flex;
+    justify-content: center; 
+    margin-top: 1vh;
+}
+
+
+.FlexNumberSelectionParent {
+    display: flex;
+    justify-content: center; 
+}
+
+.SearchButton input {
+    height: 2.4vh; 
+    width: 20vw; 
+}
+
+.FlexTableParent th, td{
+    padding: 1vh 3vw;
+}
+
+.visibleLineBreak {
+    min-width: 92vw; 
+    min-height: 0.4vh; 
+    background-color:#7b0f24; 
+    margin-top: -1vh; 
+}
+
+.NavigationHeader button {
+    background-color:#f9f6f6;
+    height: 5vh; 
+    width: 5vw; 
+    border: none; 
+    color: #7b0f24; 
+    font-size: 2vh;
+}
+
+#searchButtonElement {
+    width: 40vw; 
+    min-height: 3vh; 
+    font-size: 18px; 
+    border-radius: 10px; 
+    outline: 1px grey solid; 
+}
+
+#searchIcon {
+    font-size: 24px; 
+    padding: 0 1vw; 
+}
+
+.FlexTableParent{
+    font-size: 24px; 
+     
+    color: #7b0f24;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+
+.FlexTableParent .tableHeaders th {
+    font-weight: bold;
+}
