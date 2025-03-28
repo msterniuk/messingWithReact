@@ -3,7 +3,7 @@ function Email() {
     return (
         <form> 
         <div>
-            <input className = "Email" type = "email" placeholder = "Email..." /> 
+            <input className = "Email" type = "email" placeholder = "Email..." autoFocus/> 
 
         </div>
 
@@ -12,4 +12,5 @@ function Email() {
 }
 
 export default Email; 
+
 

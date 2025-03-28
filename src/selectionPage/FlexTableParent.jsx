@@ -23,7 +23,7 @@ function FlexTableParent() {
 
     function dummyColumnDataCreation() {
         return <tr>
-        <td> <input type = "checkbox" name = "pickMe"/> </td> 
+        <td> <input type = "radio" name = "pickMe"/> </td> 
         {dummyRowDataCreation()}
         {dummyRowDataCreation()}
         {dummyRowDataCreation()}

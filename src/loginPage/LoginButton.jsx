@@ -1,5 +1,11 @@
 function LoginButton() {
 
+    /* let loginElement = document.getElementById("LoginButton"); 
+    loginElement.addEventListener("keydown", function(e) {
+        if (e.code === "Enter") {
+            redirectToSelection(); 
+        }
+    }); */ 
 
     function redirectToSelection() {
         window.location.href = "../../selection.html"; 

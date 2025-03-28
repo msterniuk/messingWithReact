@@ -74,7 +74,7 @@ html, body, .RootComponent {
     justify-content: center; 
 }
 
-.SearchButton input {
+.SearchButtonParent input {
     height: 2.4vh; 
     width: 20vw; 
 }
@@ -99,7 +99,30 @@ html, body, .RootComponent {
     font-size: 2vh;
 }
 
-#searchButtonElement {
+.NavigationHeader button:active {
+    background-color:#f9f6f6;
+    transform: translateY(0.4vh);
+}
+
+.NavigationHeader button:hover {
+    font-size: 24px;
+    background-color: #f1eeee; 
+}
+
+#theSearchButton {
+    height: 3vh;
+    width: 3vh; 
+}
+
+#theSearchButton:hover {
+    background-color: #f9f6f6; 
+}
+
+#theSearchButton:active {
+    transform: none;
+}
+
+#searchInput {
     width: 40vw; 
     min-height: 3vh; 
     font-size: 18px; 
@@ -109,7 +132,15 @@ html, body, .RootComponent {
 
 #searchIcon {
     font-size: 24px; 
-    padding: 0 1vw; 
+    padding: 0 1.5vw; 
+}
+
+#searchIcon:hover {
+    font-size: 28px; 
+}
+
+#searchIcon:active {
+    transform: translateY(0.2vh); 
 }
 
 .FlexTableParent{
